@@ -1,0 +1,28 @@
+*{
+    user-select: none;
+    transition: 200ms;
+}
+#player{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    left: 750px;
+    top: 100px;
+    border-radius: 180%;
+    
+}
+#left, #right, #up, #down{
+ padding: 20px;
+ background-color: red;
+ cursor: pointer;
+ margin: 5px;
+ 
+ 
+}
+#con{
+    display: flex;
+    justify-content: center;
+   
+    
+}
